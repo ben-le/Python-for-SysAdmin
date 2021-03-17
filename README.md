@@ -265,7 +265,7 @@ import sys
 script = sys.argv[0]
 
 def print_usage():
-	sys.exit(f'Usage: python {script} pattern')
+	sys.exit('Usage: python {script} pattern')
 
 def main(argv):
 	if not len(argv) == 1:
